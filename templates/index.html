@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Based Image Finder</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather-Based Image Finder</h1>
+        <form method="POST" action="/get_weather_image">
+            <input type="text" name="city" placeholder="Enter city name" required>
+            <button type="submit">Get Weather & Image</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
